@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "dashboard-sas"
+  description: 
+  annotations:
+    github.com/project-slug: /dashboard-sas
+    argocd/app-name: dashboard-sas
+  links:
+    - url: https://dashboard-sas.onexidp.com
+      title: Web Application
+      icon: LaunchIcon
+spec:
+  type: service
+  owner: guests
+  lifecycle: experimental
